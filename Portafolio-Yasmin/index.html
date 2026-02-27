@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Yasmin</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!--========= PRESENTACIÓN + NAVEGACIÓN =============-->
+  <header class="presentacion" id="inicio">
+    <nav class="navegacion">
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul id="menu">
+        <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+        <li><a href="#sobre-mi"><i class="fa-solid fa-user"></i> Sobre mí</a></li>
+        <li><a href="#conocimientos"><i class="fa-solid fa-code"></i> Conocimientos</a></li>
+        <li><a href="#proyectos"><i class="fa-solid fa-laptop-code"></i> Proyectos</a></li>
+        <li><a href="#contacto"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+      </ul>
+
+    </nav>
+
+    <div class="presentacion-contenido">
+      <h2>Hola, soy Yasmin </h2>
+      <p class="rol">Desarrolladora de Software</p>
+    </div>
+  </header>
+
+
+<!--============== SOBRE MI ================-->
+<section id="sobre-mi" class="sobre-mi reveal">
+  <div class="sobre-mi-contenedor">
+
+    <!-- TEXTO -->
+    <div class="sobre-mi-texto">
+      <h2>Sobre mí</h2>
+
+      <p>
+        Soy Técnica en Desarrollo de Software recientemente graduada, con formación en
+        desarrollo web, programación orientada a objetos y bases de datos. Me interesa
+        crear aplicaciones funcionales, claras y bien estructuradas, cuidando tanto la
+        lógica como la experiencia del usuario.
+      </p>
+
+      <p>
+        Trabajé en proyectos full stack utilizando HTML, CSS, JavaScript y Angular,
+        además de APIs REST en .NET e integración con bases de datos MySQL y SQL Server.
+      </p>
+
+      <p>
+        Actualmente me encuentro abierta a oportunidades en desarrollo web, backend y
+        bases de datos, con ganas de seguir creciendo y aportar valor a un equipo IT.
+      </p>
+    </div>
+
+    <!-- FOTO / CV -->
+    <div class="sobre-mi-foto">
+      <div class="foto-flip">
+
+        <!-- Frente -->
+        <div class="foto-frente">
+          <img src="recursos/foto-yasmin.jpg" alt="Foto de Yasmin Arevalo">
+        </div>
+
+        <!-- Dorso -->
+        <div class="foto-dorso">
+          <a href="recursos/CV - Yasmin Arevalo.pdf" download class="btn-cv">Descargar CV</a>
+        </div>
+      </div>
+
+      <span class="indicador-cv">↻ Toca o pasa el mouse para ver mi CV</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!--============ CONOCIMIENTOS ===========-->
+<section id="conocimientos" class="conocimientos reveal">
+  <h2>Conocimientos</h2>
+  <p class="conocimientos-sub">
+  Tecnologías y herramientas con las que trabajo actualmente
+  </p>
+
+  <div class="carrusel">
+    <div class="carrusel-track">
+
+      <!-- LENGUAJES / TECNOLOGÍAS -->
+      <div class="skill"><img src="recursos/html.png"><span>HTML5</span></div>
+      <div class="skill"><img src="recursos/css.png"><span>CSS3</span></div>
+      <div class="skill"><img src="recursos/js.png"><span>JavaScript</span></div>
+      <div class="skill"><img src="recursos/ts.png"><span>TypeScript</span></div>
+      <div class="skill"><img src="recursos/angular.png"><span>Angular</span></div>
+      <div class="skill"><img src="recursos/php.png"><span>PHP</span></div>
+      <div class="skill"><img src="recursos/net.png"><span>.NET API</span></div>
+
+      <!-- BASES DE DATOS -->
+      <div class="skill"><img src="recursos/mysql.png"><span>MySQL</span></div>
+      <div class="skill"><img src="recursos/sql.png"><span>SQL Server</span></div>
+
+      <!-- OTROS -->
+      <div class="skill"><img src="recursos/virtualb.png"><span>Virtual Box</span></div>
+      <div class="skill"><img src="recursos/vb.png"><span>VB .NET</span></div>
+      <div class="skill"><img src="recursos/git.png"><span>Git</span></div>
+      <div class="skill"><img src="recursos/github.png"><span>GitHub</span></div>
+      <div class="skill"><img src="recursos/figma.png"><span>Figma</span></div>
+
+      <!-- DUPLICADOS PARA LOOP -->
+      <div class="skill"><img src="recursos/html.png"><span>HTML5</span></div>
+      <div class="skill"><img src="recursos/css.png"><span>CSS3</span></div>
+      <div class="skill"><img src="recursos/js.png"><span>JavaScript</span></div>
+      <div class="skill"><img src="recursos/ts.png"><span>TypeScript</span></div>
+      <div class="skill"><img src="recursos/angular.png"><span>Angular</span></div>
+      <div class="skill"><img src="recursos/php.png"><span>PHP</span></div>
+      <div class="skill"><img src="recursos/net.png"><span>.NET API</span></div>
+      <div class="skill"><img src="recursos/mysql.png"><span>MySQL</span></div>
+      <div class="skill"><img src="recursos/sql.png"><span>SQL Server</span></div>
+      <div class="skill"><img src="recursos/virtualb.png"><span>Virtual Box</span></div>
+      <div class="skill"><img src="recursos/vb.png"><span>VB .NET</span></div>
+      <div class="skill"><img src="recursos/git.png"><span>Git</span></div>
+      <div class="skill"><img src="recursos/github.png"><span>GitHub</span></div>
+      <div class="skill"><img src="recursos/figma.png"><span>Figma</span></div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--============= PROYECTOS ==============-->
+<section id="proyectos" class="proyectos reveal">
+  <h2>Proyectos</h2>
+
+  <div class="proyectos-grid">
+
+    <!-- PROYECTO 1 / HARRY POTTER UNIVERSO-->
+    <div class="proyecto-card">
+      <img src="recursos/harrypotter-universe.png">
+      <div class="proyecto-contenido">
+        <h3>Sistema Angular</h3>
+        <div class="tech-stack-card">
+          <span>Angular</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>TypeScript</span>
+        </div>
+
+        <!-- mini-descripcion -->
+        <p>Aplicación Angular que integra componentes, ruteo, servicios y consumo de APIs, desarrollada bajo la temática de el universo de Harry Potter.</p>
+
+        <div class="botones">
+          <!-- boton para ver mas informacion -->
+          <button onclick="abrirModal('modal1')" class="btn-outline">
+            <i class="fa-solid fa-circle-info"></i>Más info
+          </button>
+          <!-- boton para ver el repositorio -->
+          <a href="https://github.com/yasarevalo05-code/harrypotter-universe.git" target="_blank" class="btn-outline">
+          <i class="fa-brands fa-github"></i>GitHub
+          </a> 
+          <!-- boton ver proyecto -->
+          <a href="https://harrypotter-universe.vercel.app/" target="_blank" class="btn-primary">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>Ver proyecto
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTO 2 / FLIA CHIPANA-->
+    <div class="proyecto-card">
+      <img src="recursos/flia-chipana.png">
+      <div class="proyecto-contenido">
+        <h3>Sistema de Ventas</h3>
+          <div class="tech-stack-card">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>SQL</span>
+          </div>
+
+          <!-- mini-descripcion - Flia Chipana -->
+          <p>Sistema de gestión de ventas con frontend desarrollado en HTML, CSS y JavaScript,
+          conectado a una API REST creada en PHP y unaen base de datos SQL.</p>
+
+          <div class="botones">
+          <!-- boton para ver el modal -->
+          <button onclick="abrirModal('modal2')" class="btn-outline">
+            <i class="fa-solid fa-circle-info"></i>Más info</button>
+          <!-- boton para ir al repositorio -->
+          <a href="https://github.com/yasarevalo05-code/Sistema-de-Ventas.git" target="_blank" class="btn-outline">
+          <i class="fa-brands fa-github"></i>GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PROYECTO 3 -->
+    <div class="proyecto-card">
+      <img src="recursos/portal-moda-inicio.jpg">
+      <div class="proyecto-contenido">
+        <h3>Portal de Moda</h3>
+          <div class="tech-stack-card">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <!-- mini-descripcion - Portal-Moda -->
+          <p>Urban Style es un proyecto personal de moda que refleja mi estilo y visión del diseño. 
+            El proyecto es responsive y moderno.</p>
+
+          <div class="botones">
+          <!-- boton para ver el modal -->
+          <button onclick="abrirModal('modal3')" class="btn-outline">
+            <i class="fa-solid fa-circle-info"></i>Más info</button>
+          <!-- boton para ir al repositorio -->
+          <a href="https://github.com/yasarevalo05-code/portal-moda.git" target="_blank" class="btn-outline">
+          <i class="fa-brands fa-github"></i>GitHub</a>
+          <!-- boton ver proyecto -->
+          <a href="https://portal-moda.vercel.app/" target="_blank" class="btn-primary">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>Ver proyecto
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- MODAL 1 / HARRY POTER UNIVERSO -->
+<div id="modal1" class="modal">
+  <div class="modal-contenido">
+    <!-- Botón cerrar -->
+    <button class="cerrar" onclick="cerrarModal('modal1')">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <!-- Título del proyecto -->
+    <h2>Sistema Angular - Harry Potter Universe</h2>
+
+    <!-- Carrusel principal -->
+    <div class="modal-carrusel">
+      <button onclick="cambiarSlide(-1, 'modal1')">&#10094;</button>
+      <img class="slide active" src="recursos/harrypotter-universe.png" alt="Pantalla principal">
+      <img class="slide" src="recursos/harrypotter-universe-personajes.png" alt="Pantalla 2">
+      <img class="slide" src="recursos/harrypotter-universe-casas.png" alt="Pantalla 3">
+      <img class="slide" src="recursos/harrypotter-universe-hechizos.png" alt="Pantalla 4">
+      <img class="slide" src="recursos/harrypotter-universe-secretos.png" alt="Pantalla 5">
+      <img class="slide" src="recursos/harrypotter-universe-expreso.png" alt="Pantalla 6">
+
+      <button onclick="cambiarSlide(1, 'modal1')">&#10095;</button>
+    </div>
+
+    <!-- Descripción -->
+    <div class="modal-info">
+
+      <div class="modal-meta">
+        <span>Proyecto académico final</span>
+        <span>Desarrollo Frontend</span>
+        <span>41 horas de formación</span>
+      </div>
+      <p class="descripcion">
+        Proyecto desarrollado en el marco del curso 
+        <strong>Proceso de Inducción de Desarrollador Full Stack</strong> 
+        dictado por la UTN en colaboración con Grupo San Cristóbal Seguros.
+      </p>
+      <p>
+        Durante la formación se aplicaron fundamentos de arquitectura frontend,
+        componentes reutilizables, ruteo y consumo de APIs, implementados en esta
+        aplicación Angular temática.
+      </p>
+    </div>
+
+    <div class="tech-stack">
+      <span>Angular</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>TypeScript</span>
+      <span>API Externa</span>
+    </div>
+
+
+    <!-- Botones de acción -->
+    <div class="botones">
+      <a href="https://harrypotter-universe.vercel.app/" target="_blank" class="btn-primary">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver proyecto</a>
+      <a href="https://github.com/yasarevalo05-code/harrypotter-universe.git" target="_blank" class="btn-outline">
+        <i class="fa-brands fa-github"></i>GitHub</a>
+    </div>  
+  </div>
+</div>
+
+<!-- MODAL 2 / FLIA CHIPANA -->
+<div id="modal2" class="modal">
+  <div class="modal-contenido">
+    <!-- Botón cerrar -->
+    <button class="cerrar" onclick="cerrarModal('modal2')">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <!-- Título del proyecto -->
+    <h2>Sistema de Ventas - Flia. Chipana</h2>
+
+    <!-- Carrusel principal -->
+    <div class="modal-carrusel">
+      <button onclick="cambiarSlide(-1, 'modal2')">&#10094;</button>
+      <img class="slide active" src="recursos/flia-chipana.png" alt="Pantalla principal">
+      <img class="slide" src="recursos/flia-chipana-login.png" alt="Pantalla 2">
+      <img class="slide" src="recursos/flia-chipana-ventas.png" alt="Pantalla 3">
+      <img class="slide" src="recursos/flia-chipana-ticket.png" alt="Pantalla 4">
+
+      <button onclick="cambiarSlide(1, 'modal2')">&#10095;</button>
+    </div>
+
+    <!-- Descripción -->
+    <div class="modal-info">
+
+      <div class="modal-meta">
+        <span>Proyecto académico final aplicado</span>
+        <span>Cliente real</span>
+        <span>Full Stack</span>
+      </div>
+      <p class="descripcion">
+      Sistema de gestión de ventas desarrollado como proyecto final en las materias
+      de Práctica Profesionalizante y Programación, implementado para un cliente real
+      con el objetivo de digitalizar y optimizar su proceso de ventas.
+      </p>
+      <p>
+      La aplicación permite administrar productos, clientes y operaciones comerciales,
+      centralizando la información en una plataforma web.
+      </p>
+      <p>
+      El frontend fue construido con HTML, CSS y JavaScript, mientras que el backend
+      consiste en una API desarrollada en PHP ejecutada en una máquina virtual,
+      con persistencia de datos en una base de datos SQL, garantizando la gestión
+      segura y estructurada de la información.
+      </p>
+    </div>
+
+    <div class="tech-stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>PHP</span>
+      <span>SQL</span>
+    </div>
+
+
+    <!-- Botones de acción -->
+    <div class="botones">
+      <a href="https://github.com/yasarevalo05-code/Sistema-de-Ventas.git" target="_blank" class="btn-outline">
+        <i class="fa-brands fa-github"></i>GitHub</a>
+    </div>  
+  </div>
+</div>
+
+<!-- MODAL 3 / PORTAL-MODA -->
+<div id="modal3" class="modal">
+  <div class="modal-contenido">
+    <!-- Botón cerrar -->
+    <button class="cerrar" onclick="cerrarModal('modal3')">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <!-- Título del proyecto -->
+    <h2>Portal de Moda - Urban Style</h2>
+
+    <!-- Carrusel principal -->
+    <div class="modal-carrusel">
+      <button onclick="cambiarSlide(-1, 'modal3')">&#10094;</button>
+      <img class="slide active" src="recursos/portal-moda-inicio.jpg" alt="Pantalla principal">
+      <img class="slide" src="recursos/portal-moda-tendencias.jpg" alt="Pantalla 2">
+      <img class="slide" src="recursos/portal-moda-colecciones.jpg" alt="Pantalla 3">
+      <img class="slide" src="recursos/portal-moda-novedades.jpg" alt="Pantalla 4">
+
+      <button onclick="cambiarSlide(1, 'modal3')">&#10095;</button>
+    </div>
+
+    <!-- Descripción -->
+    <div class="modal-info">
+
+      <div class="modal-meta">
+        <span>Proyecto personal</span>
+        <span>Diseño responsive</span>
+        <span>Frontend</span>
+      </div>
+      <p class="descripcion">
+      Urban Style es un portal de moda enfocado en tendencias y estilo urbano,
+      creado para reflejar una propuesta visual moderna, dinámica y creativa.
+      </p>
+      <p>
+      La plataforma presenta distintas secciones como Inicio con estética minimalista,
+      Tendencias con collages visuales, Colecciones con carruseles de looks y
+      Novedades con contenido actualizado del mundo fashion.
+      </p>
+    </div>
+
+    <div class="tech-stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+
+    <!-- Botones de acción -->
+    <div class="botones">
+      <a href="https://portal-moda.vercel.app/" target="_blank" class="btn-primary">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver proyecto</a>
+      <a href="https://github.com/yasarevalo05-code/portal-moda.git" target="_blank" class="btn-outline">
+        <i class="fa-brands fa-github"></i>GitHub</a>
+    </div>  
+  </div>
+</div>
+
+
+<!-- =============== CONTANTO ================ -->
+<section id="contacto" class="contacto reveal">
+
+  <div class="contacto-grid">
+
+    <!-- IZQUIERDA -->
+    <div class="contacto-info">
+      <h2 class="titulo-contacto">Contactame</h2>
+
+      <p class="texto-contacto">
+        Desarrolladora Full Stack junior con conocimientos en backend, bases de datos y arquitectura escalable.
+        Actualmente estoy buencando mi primera oportunidades en el mundo IT.
+      </p>
+
+      <div class="socials">
+        <a href="https://github.com/yasarevalo05-code" target="_blank" class="btn github">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/yasminarevalo/" target="_blank" class="btn linkedin">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- LINEA -->
+    <div class="divider"></div>
+
+    <!-- DERECHA -->
+    <div class="form-area">
+      <h3 class="form-title">Enviame un mensaje</h3>
+
+      <form id="contactForm">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="campo">
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
+          <i class="fas fa-user"></i>
+        </div>
+
+        <div class="campo">
+          <input type="email" name="email" placeholder="Tu email" required>
+          <i class="fas fa-envelope"></i>
+        </div>
+
+        <div class="campo">
+          <textarea name="mensaje" placeholder="Contame sobre tu idea..." required></textarea>
+          <i class="fas fa-comment-dots"></i>
+        </div>
+
+        <button class="btn-enviar" type="submit">
+          Enviar mensaje 🚀
+        </button>
+
+        <p id="formMessage" class="form-message"></p>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<footer class="footer reveal">
+
+  <div class="footer-container">
+
+    <!-- COLUMNA 1 -->
+    <div class="footer-brand">
+      <h2>Yasmin Arevalo</h2>
+      <p>
+        Desarrollo interfaces modernas, APIs y bases de datos eficientes.
+        Me especializo en crear soluciones completas de punta a punta.
+      </p>
+
+      <div class="footer-status">
+        <span class="dot"></span>
+        Disponible para trabajar
+      </div>
+    </div>
+
+    <!-- COLUMNA 2 -->
+    <div class="footer-links">
+      <h4>Navegación</h4>
+      <a href="#inicio">Inicio</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <!-- COLUMNA 3 -->
+    <div class="footer-contact">
+      <h4>Contacto</h4>
+      <p><i class="fas fa-envelope"></i> yasarevalo05@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Rosario, Argentina</p>
+
+      <div class="footer-socials">
+  <a href="https://github.com/yasarevalo05-code" target="_blank" class="github">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/yasminarevalo/" target="_blank" class="linkedin">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+    </div>
+
+  </div>
+
+  <!-- PARTE INFERIOR -->
+  <div class="footer-bottom">
+    <p>© 2026 Yasmin Arevalo - Desarrolladora de Software</p>
+  </div>
+
+</footer>
+
+
+<!-- ============SCRIPT=============== -->
+<script src="script.js"></script>
+
+</body>
+</html>
